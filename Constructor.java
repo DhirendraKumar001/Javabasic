@@ -16,13 +16,14 @@ public class Constructor{// Constructors Function.
 
 class Fruit{
     String name;
-    String color;
     int quantity;
+    String color;
+
 
     Fruit(Fruit f1){//copy Constructor
         this.name = f1.name;
         this.color = f1.color;
-        this.quantity = f1.quantity;
+
     }
 
     Fruit (String name){// parameterized constructor.

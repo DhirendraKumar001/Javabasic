@@ -6,7 +6,6 @@ public class Constructor{// Constructors Function.
         f1.quantity = 30;
         System.out.println(f1.name);
         
-
         Fruit f2 = new Fruit(f1);
         System.out.println(f2.quantity);
 
@@ -20,7 +19,7 @@ class Fruit{
     String color;
 
 
-    Fruit(Fruit f1){//copy Constructor
+    Fruit(Fruit f1){//copy C onstructor
         this.name = f1.name;
         this.color = f1.color;
 
